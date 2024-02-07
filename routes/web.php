@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// Akses Landing Page
+Route::name('users.')->prefix('users')->group(function(){
+    Route::get('/landingpage',[UsersController::class, 'landingpage'])->name('landing-page');
 });
