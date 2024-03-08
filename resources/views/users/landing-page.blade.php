@@ -76,7 +76,7 @@
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
           <div class="section-title">
-            <h2>Portfolio PSA</h2>
+            <h2>Report PSA</h2>
           </div>
 
           <div class="row">
@@ -138,7 +138,7 @@
   <footer id="footer">
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>PSA</span></strong>. BPK PENABUR Jakarta
+            &copy; 2024 <span>Pengambang Sistem Aplikasi</span>&nbsp;<strong>Develop by <img src="{{ asset('image/sim.png') }}" alt="" style="width: 18px"></strong>
         </div>
     </div>
   </footer><!-- End Footer -->
